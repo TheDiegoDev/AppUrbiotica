@@ -1,0 +1,42 @@
+name: flutter_project
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^4.0.3
+  http: ^0.12.0+4
+  google_maps_flutter: ^0.5.21+15
+  geolocator: ^5.2.0
+  location_permissions: ^2.0.4+1
+  permission_handler: ^4.2.0+hotfix.2
+  location: ^2.3.5
+  provider: ^4.0.2
+  cupertino_icons: ^0.1.2
+  package_info: ^0.4.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/urb.jpeg
+    - assets/logocolor.png
+    - assets/parking.png
+    - assets/parking_carga.png
+    - assets/parking_minus.png
+
+
+
+
