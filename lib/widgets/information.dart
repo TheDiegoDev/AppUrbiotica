@@ -44,6 +44,7 @@ class InformationScreenState extends State<InformationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: BottomAppBar(
+        child: SingleChildScrollView(
           child: Column(
               children:<Widget>[
                 Container(
@@ -78,6 +79,7 @@ class InformationScreenState extends State<InformationScreen> {
                   ),
                 ),
               ]
+             ),
           ),
         ),
     );
